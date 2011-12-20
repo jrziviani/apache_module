@@ -1,0 +1,22 @@
+How to create an Apache Module
+
+The Apache HTTP is a very extensible server and it is not hard to write your
+own module statically or dynamically. We know there are languages and
+frameworks such as PHP, Ruby on Rails, Python Django are designed to go Web and
+it would be really hard – impossible for the most – be more productive on Web
+using C or C++ than using one of these tools but the goal is not replace
+languages but improve the server.
+
+You could write an extension to implement the security model your company
+desire, make this module to handle all http requests before they get processed,
+or you could make Apache not a general use web server but specific for
+something you need, faster and reliable. There are many ideas that could be
+implemented and here I will create a small and very simple web service to
+handle and process HTTP requests.
+
+This code is an example for the article How to Create an Apache Module
+http://www.ziviani.net/2011/how-to-create-an-apache-module
+
+Your comments are very welcome!
+
+Thanks
